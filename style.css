@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-weight: 400;
+  text-align: center;
+  color: rgb(36, 143, 36);
+  margin-bottom: 20px;
+}
+.tata {
+  display: flex;
+  margin-bottom: 40px;
+}
+.first, .third {
+  flex: 2;
+}
+
+.form {
+  flex: 8;
+  max-width: 700px;
+}
+
+.name {
+  display: flex;
+  margin-bottom: 15px !important;
+}
+.name label {
+  font-weight: bold;
+  width: 17%;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.name input {
+  max-width: 83%;
+  width: 100%;
+  padding: 7px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  background-color: #E0E0E0;
+}
+
+.ndRow {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+
+}
+
+.date, .amount {
+  flex: 6;
+  display: flex;
+  flex-direction: row;
+}
+.date {
+  margin-right: 10px;
+}
+
+.date input, .amount input {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color:#E0E0E0;
+  padding: 2px;
+  color: gray;
+}
+.date input {
+  flex: 8;
+}
+.amount input{
+  padding: 5px;
+  flex: 10;
+}
+
+.date label, .amount label {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.data label {
+  flex: 4;
+}
+.amount label {
+  flex: 2;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: none;
+  background-color: green;
+  font-size: 18px;
+  color: #ffff;
+}
+
+.submit:hover, .total:hover{
+  background-color: rgb(15, 146, 15);
+  cursor: pointer;
+}
+
+table {
+  margin: 30px auto;
+  
+  max-width: 700px;
+  width: 100%;
+}
+
+thead{
+  background-color:	#D8D8D8;
+}
+
+th, td {
+  padding: 5px 25px;
+}
+
+td {
+  background-color:#E0E0E0;
+}
+tbody tr {
+  text-align: center;
+}
+.delete {
+  padding: 7px 13px;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: red;
+  color: #ffff;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: rgb(223, 49, 49);
+}
+
+.sum {
+  text-align: center;
+}
+
+.total {
+  padding: 10px 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: none;
+  background-color: green;
+  font-size: 18px;
+  color: #ffff;
+}
+.reset {
+  display: block;
+  margin-top: 5px;
+}
